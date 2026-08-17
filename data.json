@@ -1,0 +1,548 @@
+﻿{
+    "slotRange":  {
+                      "min":  0,
+                      "max":  99
+                  },
+    "items":  [
+                  {
+                      "id":  "phrase_001",
+                      "type":  "phrase",
+                      "text":  "The Fall at Dawns Rise",
+                      "noteName":  "在黎明升起时坠落",
+                      "slots":  [
+                                    0,
+                                    1
+                                ]
+                  },
+                  {
+                      "id":  "phrase_002",
+                      "type":  "phrase",
+                      "text":  "So Laughed the Masses",
+                      "noteName":  "如是，众生欢笑不已",
+                      "slots":  [
+                                    2,
+                                    3
+                                ]
+                  },
+                  {
+                      "id":  "phrase_003",
+                      "type":  "phrase",
+                      "text":  "For the Sun is Set to Die",
+                      "noteName":  "因为太阳将要毁伤",
+                      "slots":  [
+                                    4,
+                                    5
+                                ]
+                  },
+                  {
+                      "id":  "phrase_004",
+                      "type":  "phrase",
+                      "text":  "Crown of the Mundane and Divine",
+                      "noteName":  "庸与神的冠冕",
+                      "slots":  [
+                                    6,
+                                    7
+                                ]
+                  },
+                  {
+                      "id":  "phrase_005",
+                      "type":  "phrase",
+                      "text":  "If One Dreams At Midnight",
+                      "noteName":  "假如在午夜入梦",
+                      "slots":  [
+                                    8,
+                                    9
+                                ]
+                  },
+                  {
+                      "id":  "phrase_006",
+                      "type":  "phrase",
+                      "text":  "Into the Yawning Chasm",
+                      "noteName":  "狂热奔向深渊",
+                      "slots":  [
+                                    10,
+                                    11
+                                ]
+                  },
+                  {
+                      "id":  "phrase_007",
+                      "type":  "phrase",
+                      "text":  "Then Wake to Weep",
+                      "noteName":  "等醒来再哭泣",
+                      "slots":  [
+                                    12,
+                                    13
+                                ]
+                  },
+                  {
+                      "id":  "phrase_008",
+                      "type":  "phrase",
+                      "text":  "A New Venture on the Eighth Dawn",
+                      "noteName":  "在第八日启程",
+                      "slots":  [
+                                    14,
+                                    15
+                                ]
+                  },
+                  {
+                      "id":  "phrase_009",
+                      "type":  "phrase",
+                      "text":  "Paean of Era Nova",
+                      "noteName":  "再创世的凯歌",
+                      "slots":  [
+                                    16,
+                                    17
+                                ]
+                  },
+                  {
+                      "id":  "phrase_010",
+                      "type":  "phrase",
+                      "text":  "Through the Petals in the Land of Repose",
+                      "noteName":  "走过安眠地的花丛",
+                      "slots":  [
+                                    18,
+                                    19
+                                ]
+                  },
+                  {
+                      "id":  "phrase_011",
+                      "type":  "phrase",
+                      "text":  "As Tomorrow Became Yesterday",
+                      "noteName":  "成为昨日的明天",
+                      "slots":  [
+                                    20,
+                                    21
+                                ]
+                  },
+                  {
+                      "id":  "phrase_012",
+                      "type":  "phrase",
+                      "text":  "Do Not Go Gentle Into That Good Night",
+                      "noteName":  "不要温和地走进那个良夜",
+                      "slots":  [
+                                    22,
+                                    23
+                                ]
+                  },
+                  {
+                      "id":  "phrase_013",
+                      "type":  "phrase",
+                      "text":  "Memories of Dreams Bygone",
+                      "noteName":  "可曾记得梦",
+                      "slots":  [
+                                    24,
+                                    25
+                                ]
+                  },
+                  {
+                      "id":  "phrase_014",
+                      "type":  "phrase",
+                      "text":  "On the Precipice of the Abyss",
+                      "noteName":  "将临未抵的深渊",
+                      "slots":  [
+                                    26,
+                                    27
+                                ]
+                  },
+                  {
+                      "id":  "phrase_015",
+                      "type":  "phrase",
+                      "text":  "Encore for an Old Dream",
+                      "noteName":  "旧梦的安可曲",
+                      "slots":  [
+                                    28,
+                                    29
+                                ]
+                  },
+                  {
+                      "id":  "phrase_016",
+                      "type":  "phrase",
+                      "text":  "Champions Never Fall to the Past",
+                      "noteName":  "英雄不死于往昔",
+                      "slots":  [
+                                    30,
+                                    31
+                                ]
+                  },
+                  {
+                      "id":  "phrase_017",
+                      "type":  "phrase",
+                      "text":  "A Sleepwalkers Confession",
+                      "noteName":  "某个梦游者的自白",
+                      "slots":  [
+                                    32,
+                                    33
+                                ]
+                  },
+                  {
+                      "id":  "phrase_018",
+                      "type":  "phrase",
+                      "text":  "Bury Your Tears With the Past",
+                      "noteName":  "将眼泪与过往一同埋葬",
+                      "slots":  [
+                                    34,
+                                    35
+                                ]
+                  },
+                  {
+                      "id":  "phrase_019",
+                      "type":  "phrase",
+                      "text":  "Among the Forgotten Ruins",
+                      "noteName":  "在被遗忘的废墟之上",
+                      "slots":  [
+                                    36,
+                                    37
+                                ]
+                  },
+                  {
+                      "id":  "phrase_020",
+                      "type":  "phrase",
+                      "text":  "Undercover RnB",
+                      "noteName":  "卧底蓝调",
+                      "slots":  [
+                                    38,
+                                    39
+                                ]
+                  },
+                  {
+                      "id":  "phrase_021",
+                      "type":  "phrase",
+                      "text":  "Masquerade of the Guilty",
+                      "noteName":  "罪人舞步旋",
+                      "slots":  [
+                                    40,
+                                    41
+                                ]
+                  },
+                  {
+                      "id":  "phrase_022",
+                      "type":  "phrase",
+                      "text":  "Incandescent Ode of Resurrection",
+                      "noteName":  "炽烈的还魂诗",
+                      "slots":  [
+                                    42,
+                                    43
+                                ]
+                  },
+                  {
+                      "id":  "phrase_023",
+                      "type":  "phrase",
+                      "text":  "Ending a Grand Overture",
+                      "noteName":  "追迹日落以西",
+                      "slots":  [
+                                    44,
+                                    45
+                                ]
+                  },
+                  {
+                      "id":  "phrase_024",
+                      "type":  "phrase",
+                      "text":  "Absolved Will Be the Seekers",
+                      "noteName":  "慈悲灯塔",
+                      "slots":  [
+                                    46,
+                                    47
+                                ]
+                  },
+                  {
+                      "id":  "phrase_025",
+                      "type":  "phrase",
+                      "text":  "Abnormal Spectrum",
+                      "noteName":  "反常光谱",
+                      "slots":  [
+                                    48,
+                                    49
+                                ]
+                  },
+                  {
+                      "id":  "phrase_026",
+                      "type":  "phrase",
+                      "text":  "Critical Phase Transition",
+                      "noteName":  "相变临界",
+                      "slots":  [
+                                    50,
+                                    51
+                                ]
+                  },
+                  {
+                      "id":  "phrase_027",
+                      "type":  "phrase",
+                      "text":  "Rewinding Breeze",
+                      "noteName":  "踏寻往昔之风",
+                      "slots":  [
+                                    52,
+                                    53
+                                ]
+                  },
+                  {
+                      "id":  "phrase_028",
+                      "type":  "phrase",
+                      "text":  "The Black Forest Wills A Dream",
+                      "noteName":  "眠于树影之中",
+                      "slots":  [
+                                    54,
+                                    55
+                                ]
+                  },
+                  {
+                      "id":  "phrase_029",
+                      "type":  "phrase",
+                      "text":  "Elegy of Ashes",
+                      "noteName":  "挽歌燃烧殆尽",
+                      "slots":  [
+                                    56,
+                                    57
+                                ]
+                  },
+                  {
+                      "id":  "phrase_030",
+                      "type":  "phrase",
+                      "text":  "Zwillingsturme im Herbst",
+                      "noteName":  "崔林特尔梅之金",
+                      "slots":  [
+                                    58,
+                                    59
+                                ]
+                  },
+                  {
+                      "id":  "phrase_031",
+                      "type":  "phrase",
+                      "text":  "Twilight of Wolumonde",
+                      "noteName":  "沃伦姆德的薄暮",
+                      "slots":  [
+                                    60,
+                                    61
+                                ]
+                  },
+                  {
+                      "id":  "phrase_032",
+                      "type":  "phrase",
+                      "text":  "Stultifera Navis",
+                      "noteName":  "愚人号",
+                      "slots":  [
+                                    62,
+                                    63
+                                ]
+                  },
+                  {
+                      "id":  "phrase_033",
+                      "type":  "phrase",
+                      "text":  "Lone Trail",
+                      "noteName":  "孤星",
+                      "slots":  [
+                                    64,
+                                    65
+                                ]
+                  },
+                  {
+                      "id":  "phrase_034",
+                      "type":  "phrase",
+                      "text":  "Poincare Recurrence",
+                      "noteName":  "熵减焓增",
+                      "slots":  [
+                                    66,
+                                    67
+                                ]
+                  },
+                  {
+                      "id":  "phrase_035",
+                      "type":  "phrase",
+                      "text":  "Dual Randomness",
+                      "noteName":  "双联乱数",
+                      "slots":  [
+                                    68,
+                                    69
+                                ]
+                  },
+                  {
+                      "id":  "phrase_036",
+                      "type":  "phrase",
+                      "text":  "Mirror Stage",
+                      "noteName":  "镜像论",
+                      "slots":  [
+                                    70,
+                                    71
+                                ]
+                  },
+                  {
+                      "id":  "phrase_037",
+                      "type":  "phrase",
+                      "text":  "Cartesian Theater",
+                      "noteName":  "笛卡尔剧场",
+                      "slots":  [
+                                    72,
+                                    73
+                                ]
+                  },
+                  {
+                      "id":  "phrase_038",
+                      "type":  "phrase",
+                      "text":  "Roche Limit",
+                      "noteName":  "洛希极限",
+                      "slots":  [
+                                    74,
+                                    75
+                                ]
+                  },
+                  {
+                      "id":  "phrase_039",
+                      "type":  "phrase",
+                      "text":  "Quantum Fluctuation",
+                      "noteName":  "零态潮汐",
+                      "slots":  [
+                                    76,
+                                    77
+                                ]
+                  },
+                  {
+                      "id":  "phrase_040",
+                      "type":  "phrase",
+                      "text":  "Continuum Turbulence",
+                      "noteName":  "有序紊流",
+                      "slots":  [
+                                    78,
+                                    79
+                                ]
+                  },
+                  {
+                      "id":  "phrase_041",
+                      "type":  "phrase",
+                      "text":  "Blind Dismantling Rule",
+                      "noteName":  "盲拆法则",
+                      "slots":  [
+                                    80,
+                                    81
+                                ]
+                  },
+                  {
+                      "id":  "phrase_042",
+                      "type":  "phrase",
+                      "text":  "Zero Cosmic Velocity",
+                      "noteName":  "第零宇宙速度",
+                      "slots":  [
+                                    82,
+                                    83
+                                ]
+                  },
+                  {
+                      "id":  "phrase_043",
+                      "type":  "phrase",
+                      "text":  "Arctic Warfare",
+                      "noteName":  "失温症",
+                      "slots":  [
+                                    84,
+                                    85
+                                ]
+                  },
+                  {
+                      "id":  "phrase_044",
+                      "type":  "phrase",
+                      "text":  "The Summer Garden of Forking Paths",
+                      "noteName":  "歧路留影",
+                      "slots":  [
+                                    86,
+                                    87
+                                ]
+                  },
+                  {
+                      "id":  "phrase_045",
+                      "type":  "phrase",
+                      "text":  "When Meteor Streaks Across the Sky",
+                      "noteName":  "当流星飞过天际",
+                      "slots":  [
+                                    88,
+                                    89
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_001",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "zc",
+                      "slots":  [
+                                    90
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_002",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "jlove",
+                      "slots":  [
+                                    91
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_003",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "maxUpperLimit",
+                      "slots":  [
+                                    92
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_004",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "maxLowerLimit",
+                      "slots":  [
+                                    93
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_005",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "chinese",
+                      "slots":  [
+                                    94
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_006",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "russian",
+                      "slots":  [
+                                    95
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_007",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "symbols",
+                      "slots":  [
+                                    96
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_008",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "numbers",
+                      "slots":  [
+                                    97
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_009",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "empty",
+                      "slots":  [
+                                    98
+                                ]
+                  },
+                  {
+                      "id":  "pseudoBug_010",
+                      "type":  "pseudoBug",
+                      "noteName":  "",
+                      "funcName":  "doYouHaveSelfAwareness",
+                      "slots":  [
+                                    99
+                                ]
+                  }
+              ]
+}

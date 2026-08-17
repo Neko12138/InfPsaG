@@ -1,0 +1,472 @@
+/* ==============================
+   FONT
+   ============================== */
+
+@font-face {
+    font-family: "TerminalLocal";
+    src: url("./assets/fonts/terminal.ttf") format("truetype");
+    font-display: swap;
+}
+
+
+/* ==============================
+   BASE
+   ============================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    min-height: 100%;
+
+    background: #000000;
+}
+
+body {
+    min-height: 100vh;
+
+    color: #c8c9bb;
+
+    font-family:
+        "TerminalLocal",
+        "Courier New",
+        Courier,
+        monospace;
+
+    font-size: 16px;
+    line-height: 1.45;
+
+    overflow-x: hidden;
+
+    /*
+        非常轻微的旧显示器综合色偏移：
+        一点黄、一点绿，不做明显滤镜。
+    */
+    filter:
+        sepia(0.08)
+        hue-rotate(22deg)
+        saturate(0.85);
+}
+
+
+/* ==============================
+   CRT LAYERS
+   ============================== */
+
+body::before {
+    content: "";
+
+    position: fixed;
+    inset: 0;
+
+    pointer-events: none;
+    z-index: 1000;
+
+    /*
+        极淡扫描线
+    */
+    background:
+        repeating-linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0.018) 0px,
+            rgba(255, 255, 255, 0.018) 1px,
+            rgba(0, 0, 0, 0) 2px,
+            rgba(0, 0, 0, 0) 4px
+        );
+}
+
+body::after {
+    content: "";
+
+    position: fixed;
+    inset: 0;
+
+    pointer-events: none;
+    z-index: 999;
+
+    /*
+        轻微的老 CRT 中心亮、边缘暗
+    */
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(185, 195, 145, 0.018) 0%,
+            rgba(0, 0, 0, 0) 55%,
+            rgba(0, 0, 0, 0.16) 100%
+        );
+}
+
+
+/* ==============================
+   TERMINAL
+   ============================== */
+
+#terminal {
+    width: 100%;
+    margin: 0;
+
+    padding-top: 52px;
+    padding-left: clamp(16px, 4vw, 48px);
+    padding-right: clamp(16px, 4vw, 48px);
+    padding-bottom: 80px;
+
+    position: relative;
+    z-index: 1;
+}
+
+
+/* ==============================
+   TEXT
+   ============================== */
+
+.terminal-line {
+    min-height: 1.45em;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+
+    color: #d0d1c3;
+    text-align: left;
+
+    text-shadow:
+        0 0 2px rgba(209, 215, 170, 0.12);
+}
+
+
+/* ==============================
+   MANUAL
+   ============================== */
+
+.manual {
+    width: fit-content;
+    max-width: 100%;
+
+    margin: 26px auto 0 auto;
+
+    padding: 0;
+
+    color: #c4c5b7;
+
+    font: inherit;
+    line-height: 1.4;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+
+    text-align: left;
+
+    text-shadow:
+        0 0 2px rgba(204, 213, 165, 0.1);
+}
+
+
+/* ==============================
+   TYPING STATUS
+   ============================== */
+
+.typing-status {
+    margin-top: 24px;
+
+    color: #b9bba9;
+
+    letter-spacing: 0.04em;
+
+    text-align: left;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+
+/* ==============================
+   VISIBILITY
+   ============================== */
+
+.hidden {
+    display: none;
+}
+
+
+/* ==============================
+   GENERATED TERMINAL OUTPUT
+   ============================== */
+
+.terminal-output,
+.generated-code {
+    width: 100%;
+
+    margin: 20px 0 0 0;
+    padding: 0;
+
+    background: transparent;
+    color: #c4c5b7;
+
+    font: inherit;
+    line-height: 1.4;
+
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+
+    text-align: left;
+
+    border: none;
+
+    text-shadow:
+        0 0 2px rgba(204, 213, 165, 0.1);
+}
+
+
+/* ==============================
+   REAL USER INPUT
+   ============================== */
+
+.user-input-row {
+    width: 100%;
+
+    margin-top: 18px;
+    padding: 0;
+
+    display: flex;
+    align-items: baseline;
+
+    background: transparent;
+    color: #d0d1c3;
+
+    font: inherit;
+    line-height: inherit;
+}
+
+.user-input-prompt {
+    flex: 0 0 auto;
+
+    margin: 0 6px 0 0;
+    padding: 0;
+
+    background: transparent;
+    color: #d0d1c3;
+
+    font: inherit;
+
+    user-select: none;
+
+    text-shadow:
+        0 0 2px rgba(209, 215, 170, 0.12);
+}
+
+.user-input {
+    flex: 1 1 auto;
+
+    width: 100%;
+    min-width: 0;
+
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    background: transparent;
+    color: #d0d1c3;
+
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+
+    caret-color: #d0d1c3;
+
+    border-radius: 0;
+
+    text-shadow:
+        0 0 2px rgba(209, 215, 170, 0.12);
+}
+
+.user-input:focus,
+.user-input:focus-visible {
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    background: transparent;
+}
+
+.user-input:disabled {
+    opacity: 1;
+
+    background: transparent;
+    color: #d0d1c3;
+
+    border: none;
+    outline: none;
+
+    cursor: default;
+
+    -webkit-text-fill-color: #d0d1c3;
+}
+
+.user-input:read-only {
+    opacity: 1;
+
+    background: transparent;
+    color: #d0d1c3;
+
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    cursor: default;
+
+    -webkit-text-fill-color: #d0d1c3;
+}
+
+.user-input:-webkit-autofill,
+.user-input:-webkit-autofill:hover,
+.user-input:-webkit-autofill:focus,
+.user-input:-webkit-autofill:active {
+    -webkit-text-fill-color: #d0d1c3;
+
+    -webkit-box-shadow:
+        0 0 0 1000px #000000 inset;
+
+    box-shadow:
+        0 0 0 1000px #000000 inset;
+
+    caret-color: #d0d1c3;
+
+    transition:
+        background-color 9999s ease-out 0s;
+}
+
+
+/* ==============================
+   CRASH OUTPUT
+   ============================== */
+
+.crash-output {
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    background: #000000;
+    color: #c8c9bb;
+
+    font-family:
+        "TerminalLocal",
+        "Courier New",
+        Courier,
+        monospace;
+
+    font-size: 14px;
+    line-height: 1.15;
+
+    white-space: pre;
+
+    overflow: hidden;
+
+    text-align: left;
+
+    text-shadow:
+        0 0 2px rgba(204, 213, 165, 0.12);
+}
+
+
+/* 中等尺寸屏幕 */
+@media (max-width: 900px) {
+    body {
+        font-size: 15px;
+    }
+
+    #terminal {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .manual {
+        width: 100%;
+        margin-top: 24px;
+    }
+}
+
+
+/* 手机、小窗口 */
+@media (max-width: 640px) {
+    body {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    #terminal {
+        padding-top: 24px;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-bottom: 40px;
+    }
+
+    .manual {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+
+        font-size: 0.95em;
+    }
+
+    .typing-status {
+        margin-top: 20px;
+    }
+
+    .terminal-output,
+    .generated-code {
+        margin-top: 16px;
+
+        font-size: 0.95em;
+    }
+
+    .user-input-row {
+        margin-top: 16px;
+    }
+
+    .user-input-prompt {
+        margin-right: 4px;
+    }
+
+    .crash-output {
+        font-size: 12px;
+    }
+}
+
+
+/* 非常窄的小屏幕 */
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+
+    #terminal {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .manual {
+        font-size: 0.92em;
+    }
+
+    .terminal-output,
+    .generated-code {
+        font-size: 0.92em;
+    }
+}
